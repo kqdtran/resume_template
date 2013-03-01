@@ -2,6 +2,7 @@
 \documentclass[margin]{res}
 \usepackage{enumitem}
 \usepackage{url}
+\usepackage[pdfborder={0 0 0}]{hyperref}
 \setlength{\parskip}{3mm plus1mm minus1mm}
 \usepackage{setspace}
 \singlespacing
@@ -10,33 +11,46 @@
 % Center the name over the entire width of resume:
  \moveleft.5\hoffset\centerline{\large\bf Khoa Q.D. Tran}
 % Draw a horizontal line the whole width of resume:
- \moveleft\hoffset\vbox{\hrule width\resumewidth height 0.3pt}\smallskip
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 0.1pt}\smallskip
  \moveleft.5\hoffset\centerline{Personal Website: \url{www.ocf.berkeley.edu/~kqdtran/}}
+ \moveleft.5\hoffset\centerline{Email: \url{khoatran@berkeley.edu} - Phone: (831)402-3491}
  \moveleft.5\hoffset\centerline{Github: \url{https://github.com/kqdtran}}
- \moveleft.5\hoffset\centerline{\url{khoatran@berkeley.edu}}
  
 \begin{resume}
 \section{EDUCATION} 
 \textbf{University of California, Berkeley} \hfill Fall 2012 - Present \\
-Bachelor of Arts, Computer Science. GPA: 3.59 \\
+Bachelor of Arts, Computer Science. In-major GPA: 3.70 \\
 Expected graduation date: May 2014 
 
-\textbf{Monterey Peninsula College} \hfill Fall 2010 - Summer 2012 \\
+\textbf{Monterey Peninsula College} \hfill Fall 2010 - Spring 2012 \\
 Associate of Arts, Computer Science and Mathematics. GPA: 4.00
  
 \section{RELEVANT \\ COURSEWORK} 
 \begin{tabular}{@{}l l}
-Machine Structures & Structures and Interpretations of Computer Programs \\ [5pt]
+Data Structures & Structures and Interpretations of Computer Programs \\ [5pt]
 Discrete Mathematics & Probability and Risk Analysis for Engineers \\ [5pt]
-Data Structures & Intro to Web Design using HTML/CSS \\ [5pt]
+Machine Structures & Industrial and Commercial Database Systems \textit{(In Progress)} \\ [5pt]
 Algorithms \textit{(In Progress)} & Intro to Digital Electronics \textit{(In Progress)}
 \end{tabular}
  
 \section{EXPERIENCE} 
-\textbf{Research Apprentice} \hfill September 2012 - Present \\
+\textbf{Content Developer} \hfill February 2013 - Present \\
+\textit{Mathapedia Research Group, EECS Department, UC Berkeley} \smallskip
+%\begin{itemize}[leftmargin=10pt]
+%\item Develop contents for \url{https://mathapedia.com/}
+%\end{itemize}
+
+\textbf{Reader/Grader} \hfill February 2013 - Present\\
+\textit{Computer Science 70, EECS Department, UC Berkeley} \smallskip
+\begin{itemize}[leftmargin=10pt]
+\item Grade weekly problem sets in CS 70, Discrete Mathematics \& Probablity Theory
+\item Hold weekly office hours and go over graded problem sets with students
+\end{itemize}
+
+\textbf{Research Apprentice} \hfill September 2012 - December 2012 \\
 \textit{Knight Lab, Helen Wills Neuroscience Institute, UC Berkeley} \smallskip
 \begin{itemize}[leftmargin=10pt]
-\item Conducted research on neural signals with a Postdoc using Matlab and eye tracking system
+\item Conducted research on neural signals using Matlab and eye tracking system
 \end{itemize}
 
 \textbf{Calculus Tutor} \hfill June 2012 - August 2012 \\
@@ -55,34 +69,27 @@ Algorithms \textit{(In Progress)} & Intro to Digital Electronics \textit{(In Pro
 \textbf{MapReduce in the Cloud} \hfill Java, Hadoop
 \begin{itemize}[leftmargin=10pt]
 \itemsep -2pt %reduce space between items
-\item Text analyzer ran on Amazon EC2 that determined
-the co-occurrence rates between phrases in the corpus
-\end{itemize}
-
-\textbf{Scheme Interpreter} \hfill Python, Scheme
-\begin{itemize}[leftmargin=10pt]
-\itemsep -2pt %reduce space between items
-\item Interpreter that parsed and evaluated expressions in a subset of the Scheme language
+\item Text analyzer ran on Amazon EC2 that determined the co-occurrence rates between phrases in the corpus
 \end{itemize}
 
 \textbf{Plagiarism Detection Program} \hfill Java
 \begin{itemize}[leftmargin=10pt]
 \itemsep -2pt %reduce space between items
-\item Plagiarism detector that checked for similarities among
-homework submissions in an Introductory Programming class
+\item Plagiarism detector that checked for similarities among homework submissions in an Introductory Programming class
 \end{itemize}
 
 \section{TECHNICAL SKILLS}
 \textbf{Programming}
 \begin{itemize}[leftmargin=10pt]
-\item \textit{Proficient}: Java; C/C++; Python
-\item \textit{Working Knowledge}: Scala; Scheme; Matlab; MIPS Assembly; HTML/CSS; JavaScript; Bash Scripting
+\item \textit{Proficient}: Python; Java
+\item \textit{Working Knowledge}: C/C++; Scheme; HTML/CSS; SQL
+\item \textit{Some Experience}: JavaScript; Scala; SML; MIPS Assembly; Matlab
 \end{itemize}
 
 \textbf{Operating Systems and Software Tools}
 \begin{itemize}[leftmargin=10pt]
-\item Ubuntu; Mac OSX; Windows 7/XP
-\item Git; Visual Studio; Eclipse; Emacs; LaTex
+\item Ubuntu; Mac OS X; Windows 7/XP
+\item Git; Visual Studio; Eclipse; Emacs; \LaTeX{}/Lyx
 \end{itemize}
 
 \end{resume}

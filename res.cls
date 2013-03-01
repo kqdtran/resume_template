@@ -238,9 +238,9 @@
 \def\@linename{\begingroup
   \def\\{, }
   {\namefont\@name}
-  \vskip 2pt
-  \fullline
-  \vskip 2pt
+  \vskip 0pt
+  %\fullline
+  %\vskip 0pt
   % where do you live?
   \@ifundefined{@addressone}{%
     % do nothing
@@ -281,7 +281,7 @@
 \newdimen\resumewidth
 
 \resumewidth=6.5in
-\sectionskip=3.5ex plus 1ex minus -.2ex % values stolen from LaTeX
+\sectionskip=3.0ex plus 1ex minus -.2ex % values stolen from LaTeX
 
 \def\newsectionwidth#1{%
 		     \sectionwidth=#1
@@ -771,11 +771,11 @@
 %    body
 % with everything in the left of its column
 
-\@secpenalty = -500
+\@secpenalty = -400
 \topmargin 0pt
 \headheight 0pt
 \headsep 0pt
-\textheight 9in
+\textheight 10in
 \parindent 0pt
 \topmargin 0in
 \oddsidemargin 0pt
@@ -787,8 +787,8 @@
 \def\@listI{\leftmargin\leftmargini
 \topsep 0pt 
 \parskip 0pt
-\partopsep 2pt plus 2pt
-\parsep 2pt plus 2pt
+\partopsep 1.5pt plus 1pt
+\parsep 1.5pt plus 1pt
 \itemsep \parsep}
 
 \pagestyle{empty}  % don't want page numbers
