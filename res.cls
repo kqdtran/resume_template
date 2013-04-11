@@ -281,7 +281,7 @@
 \newdimen\resumewidth
 
 \resumewidth=7.8in
-\sectionskip=3.0ex plus 1ex minus -.2ex % values stolen from LaTeX
+\sectionskip=2.5ex plus 1ex minus -.2ex % values stolen from LaTeX
 
 \def\newsectionwidth#1{%
 		     \sectionwidth=#1
@@ -355,7 +355,7 @@
 		 % lined up with the baseline of the first box in the list
       \leftskip=0pt
       \hsize=\sectionwidth
-      \textwidth=\sectionwidth
+      \textwidth=0pt
       \raggedright     % you don't want this filled out to the right margin
       \sectionfont
       #1\vss	       % Go into horizontal mode; do the paragraph;
@@ -442,7 +442,7 @@
 \let\@@section\relax
 \def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.5in}\let
   \@@section\unboxed@sectiontitle\fi}
-\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let
+\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.2in}\let
   \@@section\boxed@sectiontitle\fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
