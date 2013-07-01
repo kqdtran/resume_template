@@ -1,7 +1,12 @@
 % Cover letter using letter.cls
 \documentclass{letter} % Uses 10pt
 \usepackage{graphicx}
-\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{setspace}
+\singlespacing
 \usepackage[T1]{fontenc}
 
 % the following commands control the margins:
@@ -20,14 +25,13 @@
 Berkeley, CA 94720}
 
 \begin{center}
-{\large\bf Khoa Tran} 
+{\large\bf Khoa Q.D. Tran} 
 \end{center}
 \medskip\hrule height 0.3pt
 \begin{center}
-{2700 Hearst Avenue \\   
-Berkeley, CA 94720 \\ 
-(831)402-3491 \\ 
-khoatran@berkeley.edu} 
+{2508 Ridge Rd. Apt 3, Berkeley, CA 94709 \\   
+Email: \href{mailto:khoatran@berkeley.edu}{\tt{khoatran@berkeley.edu}} - Phone: (831)402-3491 \\
+\href{http://kqdtran.github.io/}{\tt{kqdtran.github.io}} - \href{https://github.com/kqdtran}{\tt{github.com/kqdtran}} } 
 \end{center} \vfill % forces letterhead to top of page
  
 \opening{Dear Hiring Manager,} 
@@ -59,7 +63,7 @@ interview. End the letter by thanking  the  employer  for  taking
 time to consider your credentials. 
  
 \closing{Sincerely yours, }
-\fromname{Khoa Tran}
+\fromname{Khoa Q.D. Tran}
 
 \end{letter}
 \end{document}
